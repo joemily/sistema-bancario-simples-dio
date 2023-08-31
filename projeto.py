@@ -22,7 +22,7 @@ while True:
     opcao = int(input(menu))
 
     if opcao == 1:
-        valor = float(input("\NInforme o valor do depósito: "))
+        valor = float(input("\nInforme o valor do depósito: "))
 
         if valor > 0:
             saldo += valor
